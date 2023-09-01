@@ -1,0 +1,28 @@
+{
+  "name": "pet_browser_extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zxey10/pet_browser_extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zxey10/pet_browser_extension/issues"
+  },
+  "homepage": "https://github.com/Zxey10/pet_browser_extension#readme",
+  "dependencies": {
+    "@types/chrome": "^0.0.244",
+    "copy-webpack-plugin": "^11.0.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Your Crazy Pet",
+    "description": "This extension gives you a things to do when you are bored.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {},
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "p5.js","sketch.js"
+            ]
+        }
+    ]
+}
