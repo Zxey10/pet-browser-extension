@@ -3,7 +3,7 @@
 **Description:**
 Welcome to the Pet Browser Extension repository! 🐾
 
-[!Pet](https://i.imgur.com/dfWeGdN.png)
+![Pet](https://i.imgur.com/dfWeGdN.png)
 
 This browser extension is your ultimate companion for all things related to pets. Whether you're a pet owner, animal lover, or just curious about adorable animals, this extension has got you covered. With a seamless browsing experience, you can discover, learn, and enjoy all things pet-related right from your web browser.
 
