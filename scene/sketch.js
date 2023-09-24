@@ -42,17 +42,18 @@ let currentJumpImage;
 let currentJumpKey = 1;
 
 
-
+//TODO ADD MORE ACTIONS
+//TODO HOST THE SPRITES
 
 function preload() {
   spriteSheet = loadImage('http://127.0.0.1:5500/scene/assets/character.png');
   idle1 = loadImage('http://127.0.0.1:5500/scene/assets/cat/idle1.png');
   idle2 = loadImage('http://127.0.0.1:5500/scene/assets/cat/idle2.png');
   for (let i = 1; i <= walkImagesLength; i++) {
-    walkImages[i] = loadImage(`http://127.0.0.1:5500/scene/assets/cat/w${i}.png`);
-    deadImages[i] = loadImage(`http://127.0.0.1:5500/scene/assets/cat/dead${i}.png`);
+    walkImages[i] = loadImage(`assets/cat/w${i}.png`);
+    deadImages[i] = loadImage(`assets/cat/dead${i}.png`);
     if (i <= jumpImagesLength) {
-      jumpImages[i] = loadImage(`http://127.0.0.1:5500/scene/assets/cat/j${i}.png`);
+      jumpImages[i] = loadImage(`assets/cat/j${i}.png`);
     }
   }
   currentWalkImage = walkImages[1]
